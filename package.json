@@ -8,9 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --hot",
-    "prebuild":"rm -rf /dist/CNAME",
     "build": "webpack",
-    "copy":"cp ./src/CNAME ./dist",
     "gh:pages": "gh-pages -d ./dist"
   },
   "devDependencies": {
